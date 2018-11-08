@@ -1,0 +1,10 @@
+How-to
+
+Semplice how-to su come compilare il sorgente, creare i file jar, buildare l'immagine docker e farla partire
+
+
+Una volta fatte le modifiche:
+1. mvn clean install
+2. posizionarsi nella direcotry root del progetto
+3. docker build -t swarmservicetest .
+4. docker run -p 8080:8080 swarmservicetest

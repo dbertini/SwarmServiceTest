@@ -40,6 +40,11 @@
 				<version>2018.3.3</version>
 				<configuration>
 					<mainClass>it.db.swarmservice.rest.App</mainClass>
+					
+					<properties>
+						<java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
+					</properties>
+					
 				</configuration>
 				<executions>
 					<execution>
