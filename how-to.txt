@@ -8,3 +8,4 @@ Una volta fatte le modifiche:
 2. posizionarsi nella direcotry root del progetto
 3. docker build -t swarmservicetest .
 4. docker run -p 8080:8080 swarmservicetest
+	4.1 il comando -p si deve usare come <porta_che_si_vuole_usare>:<porta_del_container>

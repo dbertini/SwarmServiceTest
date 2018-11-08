@@ -2,3 +2,4 @@ it/db/swarmservice/rest/HelloWorldResource$HelloReturn.class
 it/db/swarmservice/rest/AppConfig.class
 it/db/swarmservice/rest/App.class
 it/db/swarmservice/rest/HelloWorldResource.class
+it/db/swarmservice/rest/HappyBirthdayService.class

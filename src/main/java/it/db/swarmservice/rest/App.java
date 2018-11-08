@@ -12,6 +12,7 @@ public class App {
 
 		JAXRSArchive deployment = ShrinkWrap.create(JAXRSArchive.class);
 		deployment.addClass(HelloWorldResource.class);
+		deployment.addClass(HappyBirthdayService.class);
 		swarm.deploy(deployment);
 	}
 }
